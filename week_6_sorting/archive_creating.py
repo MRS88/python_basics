@@ -23,8 +23,7 @@ size, users = s_n[0], s_n[1]
 for i in range(users):
     vol.append(int(input()))
 vol.sort()
-count = 0
-total = 0
+count, total = 0, 0
 for i in vol:
     total += i
     if size >= total:
